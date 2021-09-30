@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEVILT - Signup Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <header id="top">
+       <img id="logotype" src="img/logotype.png" alt="peviltlogotype">
+        <h1 class="tagline">You Are More Evil</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="signup.html">SIGNUP</a></li>
+        </ul>
+    </nav><hr>
+
+    <main>
+        <h1 class="left"> Please fill in the fields below:</h1><br>
+        
+        <Section>
+            <form>
+                <h3 class="left">Pevilt Membership Plan:</h3>
+                    <input type="radio" name="Plan" value="Casual User"  class="left"><label> Casual User </label><br>
+                    <input type="radio" name="Plan" value="Silver Membership" checked class="left"><label> Silver Membership </label><br>
+                    <input type="radio" name="Plan" value="Gold Membership Club" class="left"><label> Gold Membership Club </label><br><br>
+                <h3 class="left"> First and Last Name: </h3>
+                    <input type="text" class="left" placeholder="Enter name:"><br><br>
+                <h3 class="left"> Mobile number: </h3>
+                    <input type="text" name="mobilenumber" placeholder="+64" class="left"><br><br>
+                <h3 class="left"> Physical address: </h3>
+                    <input type="text" name="physicaladdress" placeholder="Enter address:" class="left"><br><br>
+                <h3 class="left"> Who do you bank with? </h3>
+                
+                <select name="Bank" class="left">
+                    <option value="Westpac Bank"> Westpac Bank </option>
+                    <option value="ASB Bank"> ASB Bank </option>
+                    <option value="Kiwi Bank" selected> Kiwi Bank </option>
+                    <option value="Bitcoin"> Bitcoin Trading </option>
+                </select><br><br>
+    
+                <h3 class="left"> Password </h3>
+                    <input type="password" placeholder="Create password:" class="left">
+            </form><br><br>
+    
+        <p id="registerbutton" class="left"> You're all done! <br> *Check that your details are correct, and hit Register! </p>
+            <button type="button" onclick="changehtml()" class="left"> Register </button><br><br><br><br>
+            
+            <div class="cwolf">
+                <img class="wolf" src="img/wolf.png">
+            </div>
+        </section><br>
+    </main>
+    
+    <footer class="footer">
+        <p id="foottext">Copyright ©  2010-2021 PEVILT  Company Bluff. All right reserved.</p>
+        <img class="footbar" src="img/footbar.png" alt="footbar">
+    </footer>
+    
+</body>
+</html>
